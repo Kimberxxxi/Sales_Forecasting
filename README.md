@@ -3,7 +3,7 @@
 ## 项目简介
 本项目旨在解决 Rossmann 零售公司在销售额预测中的难题，通过建立一个销售预测模型，预测Rossmann旗下1,115家门店未来6周的销售额。
 
-在该项目中，我通过对历史销售数据进行深入分析，结合特征工程和模型优化技术，构建了一个基于 **LightGBM** 的销售预测模型，在 Kaggle 比赛中获得了 Top 10% 的成绩（由于该比赛已经结束，排名是参考了Kaggle LeaderBoard的历史排名）。
+在该项目中，我通过对历史销售数据进行深入分析，结合特征工程和模型优化技术，构建了一个基于 **LightGBM** 的销售预测模型，在 Kaggle 比赛中获得了 Top 20% 的成绩（由于该比赛已经结束，排名是参考了Kaggle LeaderBoard的历史排名）。
 
 
 该项目主要包含以下几个部分：
@@ -125,8 +125,8 @@ features_df = extract_features(features, preprocessed_df)
 
 - 主要评估指标：**RMSPE**（均方根百分比误差）
 - 在 Kaggle 的模型得分：
-  - **Private Dataset**：RMSPE = 0.113（Top 10%）
-  - **Public Dataset**： RMSPE = 0.122
+  - **Private Dataset**：RMSPE = 0.122（Top 20%）
+  - **Public Dataset**： RMSPE = 0.113
 
 
 ## 参考资料
